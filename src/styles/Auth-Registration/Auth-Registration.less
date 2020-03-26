@@ -1,0 +1,122 @@
+.main{
+  &__form{
+    background: #e1f1ff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+  }
+  &__block{
+    background: white;
+    border-radius: 15px;
+    width: 420px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+  }
+  &__block-auth{
+    background: white;
+    border-radius: 15px;
+    width: 420px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+  }
+}
+.registration-form {
+   display: flex;
+   flex-direction: column;
+
+   &__item {
+     display: flex;
+     flex-direction: column;
+     min-width: 335px;
+     padding: 2px 0 2px 0;
+     font-size: 15px;
+   }
+ }
+.authorization-form {
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    min-width: 335px;
+    padding: 2px 0 2px 0;
+    font-size: 15px;
+  }
+}
+.input-style{
+  min-width: 335px;
+  box-sizing: border-box;
+  padding: 10px;
+  outline: none;
+  background: #F6F7FA;
+  transition-duration: 0.8s;
+  border: none;
+}
+.output-style{
+  visibility: hidden;
+  font-size: 10px;
+}
+.button-style{
+  padding: 5px;
+  height: 45px;
+  background-color: #2D94F3;
+  color: white;
+  border: 2px solid #2F8FD8;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  &:hover {
+    background-color: #3ba5b2;
+    color: #fff;
+  }
+}
+.error-message{
+  visibility: visible;
+  color: red;
+}
+.red-border{
+  border-bottom: 2px solid red !important;
+}
+.hr-line{
+  min-width: 335px;
+  margin: 15px;
+  color: #D4D9E7;
+  size: 2.19px;
+}
+.img-title{
+  cursor: pointer;
+  &:hover{
+    display: flex;
+    transform: scale(1.1);
+    transition-duration: .5s;
+  }
+}
+.link-auth{
+  cursor: pointer;
+  color: #2D94F3;
+}
+.image-wizards{
+  width: 200px;
+}
+.link{
+  margin-top: 12px;
+}
+
+.footer{
+  text-align: center;
+  color: #888FA3;
+  margin-top: 25px;
+}

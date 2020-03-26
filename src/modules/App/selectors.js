@@ -1,0 +1,12 @@
+export const getUser = state => state.common.user;
+export const getLocale = state => state.translates.locale;
+export const getDictionary = state => state.translates.dictionary;
+export const getMode = state => state.app.mode;
+export const getMessages = state => state.app.messages;
+export const getAllUsers = state => state.app.allUsers;
+export const getUsersFilter = state => state.app.usersFilter;
+export const getActiveChat = state => state.app.activeChat;
+export const getOnlineUsers = state => state.app.onlineUsers;
+export const settingsMode = state => state.app.settingsMode;
+export const emojiState = state => state.app.emojiState;
+export const getMessageFilter = state => state.app.messageFilter;
